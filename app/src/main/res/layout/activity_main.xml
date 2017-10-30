@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@color/w"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:id="@+id/carlorie"
+        android:layout_gravity="center"
+        />
+
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/c"
+        android:id="@+id/imageButton"
+        android:background="@color/w"
+        android:layout_weight="0.75" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="운동 입력"
+            android:background="@drawable/round"
+            android:textSize="20dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/roundg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="칼로리 입력"
+            android:textSize="20dp"
+            android:id="@+id/button3"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

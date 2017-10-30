@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lotte_menu">
+        <item>한우불고기콤보</item>
+        <item>한우불고기세트</item>
+        <item>모짜렐라인더 버거-해쉬세트</item>
+        <item>모짜렐라인더 버거-더블세트</item>
+        <item>원조빅불세트</item>
+        <item>유러피언치즈버거세트</item>
+        <item>핫 크리스피버거 세트</item>
+    </string-array>
+
+    <string-array name="supersize_menu">
+        <item>아메리카노</item>
+        <item>자바칩 초코 프라프치노</item>
+        <item>스카이민트 초코 프라프치노</item>
+        <item>딸기 요거트</item>
+        <item>카페라떼</item>
+        <item>에이드</item>
+    </string-array>
+
+</resources>
